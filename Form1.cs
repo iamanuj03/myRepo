@@ -16,5 +16,10 @@ namespace BatteryMonitor
         {
             InitializeComponent();
         }
+
+        private void BtnCloseWindow_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
